@@ -1,0 +1,82 @@
+Basic instructions to make an executable for distribution from python
+scripts, using Pyinstaller.
+
+For more thorough assistance, see 
+https://pyinstaller.readthedocs.io/en/stable/index.html
+
+1) Make sure all files are in the same folder:
+CantonFavs_GUI.py	# main script
+cantonfavslib.py	# module with functions for meat of the program
+data_and_images.py	# module for listing and changing data and image files
+canton_activities.txt	# data file containing info about activities in Canton
+football.png		# image file for corner of GUI window and bottom of screen (application icon,
+			# probably should be .ico file actually)
+downtown_canton_ariel_web_size__large.png	# image file for splash screen
+
+2) In cli, type:
+
+pyinstaller CantonFavs_GUI.py --onefile --windowed --add-data canton_activities.txt;.
+--add-data football.png;. --add-data downtown_canton_ariel_web_size__large.png;.
+
+The command --onefile makes it so the executable you distribute to the customer is
+only one file, no extra stuff to go with it needed.
+
+The command --windowed makes it so no terminal window opens while the program is
+loading. Leave it out if you want to see the terminal window. The terminal window 
+shows error messages sometimes that the programmer but probably not user will find 
+useful, and it is an indicator that the program is loading. There is no indication 
+it's loading if you use --windowed.
+
+The command --add-data FILE.extension;. adds a file to the executable so you don't
+have to include the file in the same folder with the distributed executable.
+The . after the ; indicates the file is currently in the same folder as the main
+Python script you're turning into an executable. Some computers will require you to
+use : instead of ; here. Some computers will require quotes, like this:
+--add-data 'FILE.extension;.'
+
+Here, CantonFavs_GUI.py is the main Python script that you would normally run to 
+start the program.
+
+3) Hit <Enter>
+
+4) Several files and folders are generated.
+
+Folder: dist
+Contains the executable for distribution. If you used the --onefile command, there
+will be only the executable here, CantonFavs_GUI.exe, which can be renamed. If you
+did not use the --onefile command, there will be several files here, so the entire
+dist folder must be distributed.
+
+Folder: build
+This contains useful information for discovering errors and warngings as to what went
+wrong in the process of building the executable with the pyinstaller commands. 
+Especially, the file warn-CantonFavs_GUI.txt contains a list of everything that 
+went wrong, which can help you to find out why the executable doesn't open, for example.
+Pyinstaller has more debugging options, but this is a good place to start.
+
+File: CantonFavs_GUI.spec
+This file contains the commands to make the executable the way that you made This is
+nice if you want to repeat the commands without typing them all in again, or if you
+want to make a few changes (the name of one of the data or image files, for example, or
+adding more It can also be useful to fix issues with imports by using the hiddenimports
+and hooks information. See documentation and forums :)
+To use this .spec file to re-make the executable:
+i) Type in the cli: pyinstaller CantonFavs_GUI.spec
+ii) Hit <Enter>
+
+5) Some common things that can go wrong:
+i) You made the executable on a different OS than you want to run it on.
+ii) The names of the data files are wrong, or they are not in the same folder as the
+main Python script when you are creating the executable.
+iii) Importing modules goes awry. Sometimes changing the version of the module can help.
+Sometimes you'll need to add the missing imports to the actual scripts. For example,
+sometimes numpy or scipy have issues with certain versions, so if there is an issue with
+something you need from numpy not being imported, such as random.common, then add
+import numpy.random.common to your script. The hooks and hidden imports lines in the
+.spec file can also be adjusted sometimes. Tkinter can sometimes require interesting
+solutions... Have fun.
+
+
+
+
+
