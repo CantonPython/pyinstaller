@@ -1,0 +1,161 @@
+ID	Category	Price	Season	Activity
+001	Outdoors	Free	Spring	Walk the trails at Sippo Lake.
+002	Outdoors	Low	Spring	TBD
+003	Outdoors	Medium	Spring	TBD
+004	Outdoors	High	Spring	TBD
+005	Outdoors	Free	Summer	Explore Stark County trails by borrowing a Zagster bike through BikeSmart.
+006	Outdoors	Low	Summer	TBD
+007	Outdoors	Medium	Summer	Rent a canoe, kayak, or pedal boat at Sippo Lake.
+008	Outdoors	High	Summer	TBD
+009	Outdoors	Free	Fall	Attend a fall festival at a Stark Park.
+010	Outdoors	Low	Fall	TBD
+011	Outdoors	Medium	Fall	Rent a canoe, kayak, or pedal boat at Sippo Lake.
+012	Outdoors	High	Fall	TBD
+013	Outdoors	Free	Winter	Explore Light Up Downtown Canton in December.
+014	Outdoors	Low	Winter	Check out Hall of Fame City Ice Rink on Tuscarawas St.
+015	Outdoors	Medium	Winter	Sign up for the New Year's Resolution Run through Eric Snow YMCA.
+016	Outdoors	High	Winter	TBD
+017	Outdoors	Free	Any	Wander around Monument Park, Stadium Park, etc., near the McKinley National Memorial.
+018	Outdoors	Low	Any	TBD
+019	Outdoors	Medium	Any	TBD
+020	Outdoors	High	Any	TBD
+021	Sports	Free	Spring	Bring your frisbees to Arboretum Spiker Park and play disc golf.
+022	Sports	Low	Spring	TBD
+023	Sports	Medium	Spring	TBD
+024	Sports	High	Spring	TBD
+025	Sports	Free	Summer	Bring your frisbees to Arboretum Spiker Park and play disc golf.
+026	Sports	Low	Summer	TBD
+027	Sports	Medium	Summer	Join a sand volleyball team at First Friends Church (no religious affiliation required).
+028	Sports	High	Summer	TBD
+029	Sports	Free	Fall	Bring your frisbees to Arboretum Spiker Park and play disc golf.
+030	Sports	Low	Fall	TBD
+031	Sports	Medium	Fall	TBD
+032	Sports	High	Fall	TBD
+033	Sports	Free	Winter	TBD
+034	Sports	Low	Winter	Check out Hall of Fame City Ice Rink on Tuscarawas St.
+035	Sports	Medium	Winter	TBD
+036	Sports	High	Winter	TBD
+037	Sports	Free	Any	Walk through The ELEVEN, a series of 11 pieces of world-class art located outside in downtown Canton and celebrating 11 moments in football history.
+038	Sports	Low	Any	TBD
+039	Sports	Medium	Any	TBD
+040	Sports	High	Any	Visit the Football Hall of Fame.
+041	Shopping	Free	Spring	TBD
+042	Shopping	Low	Spring	TBD
+043	Shopping	Medium	Spring	TBD
+044	Shopping	High	Spring	TBD
+045	Shopping	Free	Summer	TBD
+046	Shopping	Low	Summer	TBD
+047	Shopping	Medium	Summer	TBD
+048	Shopping	High	Summer	TBD
+049	Shopping	Free	Fall	TBD
+050	Shopping	Low	Fall	TBD
+051	Shopping	Medium	Fall	TBD
+052	Shopping	High	Fall	TBD
+053	Shopping	Free	Winter	TBD
+054	Shopping	Low	Winter	TBD
+055	Shopping	Medium	Winter	Christkindl Market offers glass, painting, ceramics, photography, jewelry, textiles, floral arrangements, woodworks, holiday items, etc. by artisans from all over the U.S., hosted at Canton Museum of Art.
+056	Shopping	High	Winter	TBD
+057	Shopping	Free	Any	TBD
+058	Shopping	Low	Any	TBD
+059	Shopping	Medium	Any	Check out the Downtown Canton Flea and Maker Market
+060	Shopping	High	Any	Visit Laura of Pembroke for furnishings, gifts, and women's fashion on Whipple Ave NW
+061	Museums	Free	Spring	Participate in a scavenger hunt with Troll Hole Museum's "Troll Mania on Main Street" in Alliance in April.
+062	Museums	Low	Spring	TBD
+063	Museums	Medium	Spring	TBD
+064	Museums	High	Spring	TBD
+065	Museums	Free	Summer	TBD
+066	Museums	Low	Summer	TBD
+067	Museums	Medium	Summer	TBD
+068	Museums	High	Summer	TBD
+069	Museums	Free	Fall	TBD
+070	Museums	Low	Fall	TBD
+071	Museums	Medium	Fall	TBD
+072	Museums	High	Fall	TBD
+073	Museums	Free	Winter	TBD
+074	Museums	Low	Winter	TBD
+075	Museums	Medium	Winter	TBD
+076	Museums	High	Winter	TBD
+077	Museums	Free	Any	Visit the Massillon Museum.
+078	Museums	Low	Any	Visit the William McKinley Presidential Library and Museum.
+079	Museums	Medium	Any	Visit the MAPS Air Museum.
+080	Museums	High	Any	Visit the Football Hall of Fame.
+081	Music	Free	Spring	TBD
+082	Music	Low	Spring	TBD
+083	Music	Medium	Spring	TBD
+084	Music	High	Spring	TBD
+085	Music	Free	Summer	Enjoy a Summer Serenades concert by the Canton Symphony Orchestra or check out the Canton Blues Fest in Downtown Canton in June.
+086	Music	Low	Summer	TBD
+087	Music	Medium	Summer	TBD
+088	Music	High	Summer	TBD
+089	Music	Free	Fall	TBD
+090	Music	Low	Fall	TBD
+091	Music	Medium	Fall	TBD
+092	Music	High	Fall	TBD
+093	Music	Free	Winter	TBD
+094	Music	Low	Winter	TBD
+095	Music	Medium	Winter	TBD
+096	Music	High	Winter	TBD
+097	Music	Free	Any	Check out First Friday in the Arts District.
+098	Music	Low	Any	TBD
+099	Music	Medium	Any	TBD
+100	Music	High	Any	Attend a concert at the Canton Symphony Orchestra.
+101	Eat	Free	Spring	TBD
+102	Eat	Low	Spring	TBD
+103	Eat	Medium	Spring	TBD
+104	Eat	High	Spring	TBD
+105	Eat	Free	Summer	TBD
+106	Eat	Low	Summer	Try some ice cream or appetizers at Patrick's on Cleveland Ave NW.
+107	Eat	Medium	Summer	TBD
+108	Eat	High	Summer	TBD
+109	Eat	Free	Fall	TBD
+110	Eat	Low	Fall	TBD
+111	Eat	Medium	Fall	TBD
+112	Eat	High	Fall	TBD
+113	Eat	Free	Winter	TBD
+114	Eat	Low	Winter	Enjoy an award-winning coffee or tea in the cozy atmosphere at Muggswigz on Walnut Ave NE.
+115	Eat	Medium	Winter	TBD
+116	Eat	High	Winter	TBD
+117	Eat	Free	Any	Volunteer at the Total Living Center and eat with the patrons
+118	Eat	Low	Any	Try Thatsa Wrap on 6th St NW.
+119	Eat	Medium	Any	Check out Basil Asian Bistro on Market St N.
+120	Eat	High	Any	Make a reservation at Lucca Downtown on 4th St NW.
+121	Arts	Free	Spring	TBD
+122	Arts	Low	Spring	TBD
+123	Arts	Medium	Spring	TBD
+124	Arts	High	Spring	TBD
+125	Arts	Free	Summer	TBD
+126	Arts	Low	Summer	TBD
+127	Arts	Medium	Summer	TBD
+128	Arts	High	Summer	TBD
+129	Arts	Free	Fall	TBD
+130	Arts	Low	Fall	TBD
+131	Arts	Medium	Fall	TBD
+132	Arts	High	Fall	TBD
+133	Arts	Free	Winter	TBD
+134	Arts	Low	Winter	Check out Arcade Coney's at Hall of Fame City Ice Rink on Tuscarawas St.
+135	Arts	Medium	Winter	TBD
+136	Arts	High	Winter	TBD
+137	Arts	Free	Any	Check out First Friday in the Arts District or the Public Art Tour any day (see Arts in Stark's website).
+138	Arts	Low	Any	Visit the Canton Museum of Art.
+139	Arts	Medium	Any	Make string art at a workshop hosted by Strung by Shawna
+140	Arts	High	Any	Purchase original artwork by a local artist
+141	Nerdy	Free	Spring	TBD
+142	Nerdy	Low	Spring	TBD
+143	Nerdy	Medium	Spring	TBD
+144	Nerdy	High	Spring	TBD
+145	Nerdy	Free	Summer	TBD
+146	Nerdy	Low	Summer	TBD
+147	Nerdy	Medium	Summer	TBD
+148	Nerdy	High	Summer	TBD
+149	Nerdy	Free	Fall	TBD
+150	Nerdy	Low	Fall	TBD
+151	Nerdy	Medium	Fall	TBD
+152	Nerdy	High	Fall	TBD
+153	Nerdy	Free	Winter	TBD
+154	Nerdy	Low	Winter	TBD
+155	Nerdy	Medium	Winter	TBD
+156	Nerdy	High	Winter	TBD
+157	Nerdy	Free	Any	Try Trivia Night at Canton Brewery (low nerd level) or visit a Canton Python meetup (high nerd level).
+158	Nerdy	Low	Any	Sapphire City in North Canton (almost in Canton...)
+159	Nerdy	Medium	Any	Buy a vintage Star Wars toy at Happy Pappy's Action Figure Extravaganza on 6th St NW.
+160	Nerdy	High	Any	Book a game at the Escape Room Downtown on Market Ave S.
